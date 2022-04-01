@@ -69,6 +69,10 @@ a:hover {
     color: #3e7c4b;
 }
 
+.header-logo a:hover {
+    color: #00b927;
+}
+
 .logo-img-block i {
     font-size: 24px;
     margin-right: 10px;
@@ -76,4 +80,91 @@ a:hover {
 
 .navbar-collapse {
     justify-content: center;
+}
+
+.main-page-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    padding: 40px 0 30px 0;
+    margin: 160px 0 60px 0;
+    text-align: center;
+}
+
+.title-page h1:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #fff;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.title-page h1:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #fff;
+    top: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.main-page-title h1:before,
+.main-page-title h1:after {
+    background: #fff;
+}
+
+.overlay-button {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.overlay-button:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.btn-header-block {
+    text-align: center;
+    position: relative;
+}
+
+@media(max-width: 991px) {
+    .navbar-expand-md {
+        flex-wrap: wrap;
+    }
+
+    .header-pnone-block {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-dark .navbar-toggler {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .main-page-title {
+        margin: 60px 0 60px 0;
+    }
+
+    .overlay-button {
+        margin-bottom: 50x;
+    }
 }
