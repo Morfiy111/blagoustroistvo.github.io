@@ -1,16 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 a {
     color: #0f3a4b;
     text-decoration: none;
 }
-a, button {
+
+a,
+button {
     transition: all .3s linear;
 }
-a:focus, a:hover {
+
+a:focus,
+a:hover {
     text-decoration: none;
 }
+
 .header-block-page {
     background-image: url("../images/back.jpg");
     background-repeat: no-repeat;
@@ -19,26 +25,55 @@ a:focus, a:hover {
     background-size: cover;
     position: relative;
 }
+
 .header-overlay {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-.navbar-dark .navbar-nav .nav-link, .header-pnone-block a {
+
+.navbar-dark .navbar-nav .nav-link,
+.header-pnone-block a {
     color: #fff;
     border-bottom: 1px solid transparent;
 }
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .header-pnone-block a:hover, .header-pnone-block a:focus {
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.header-pnone-block a:hover,
+.header-pnone-block a:focus {
     color: #fff;
     border-bottom: 1px solid #fff;
 }
+
 .navbar-dark .navbar-toggler {
     color: #fff;
     border-color: #fff;
 }
+
 .header-pnone-block a {
     font-size: 22px;
+}
+
+.header-logo {
+    background-color: #cfc97f;
+    padding: 6px 14px;
+}
+
+.header-logo a {
+    display: flex;
+    font-weight: bold;
+    color: #3e7c4b;
+}
+
+.logo-img-block i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    justify-content: center;
 }
