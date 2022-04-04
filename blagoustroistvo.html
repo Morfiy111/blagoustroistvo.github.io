@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -83,6 +85,7 @@
                                 <input type="text" name="phone" placeholder="Телефон">
                                 <input type="text" name="email" placeholder="email">
                                 <textarea rows="5" name="comment" placeholder="Ваше сообщение"></textarea>
+                                <input type="file" class="input-file-modal">
                                 <div class="btn-page-block">
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                         class="page-btn">Отправить
@@ -239,7 +242,193 @@
         </div>
 
     </section>
+    <div class="container">
+        <h2 class="page-title-item">Наши работы</h2>
+
+        <div class="main-page-job">
+            <div class="job-item-block">
+                <a href="#"><img alt="" src="images/job1.jpg">
+                    <span class="job-title-item">Наша команда</span>
+                </a>
+            </div>
+            <div class="job-item-block">
+                <a href="#"><img alt="" src="images/job2.jpg">
+                    <span class="job-title-item">Наша техника</span>
+                </a>
+            </div>
+            <div class="job-item-block">
+                <a href="#"><img alt="" src="images/job1.jpg">
+                    <span class="job-title-item">Наше портфолио</span>
+                </a>
+            </div>
+        </div>
+        <h2 class="page-title-item">Отзывы</h2>
+        <div class="main-feedback-block">
+            <div class="owl-carousel">
+                <div class="feedback-carousel-item">
+                    <div class="feedback-carousel-user">
+                        <div class="feedback-carousel-user-img">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        <div class="feedback-carousel-user-name">
+                            Евгений Д. </div>
+                    </div>
+                    <div class="feedback-carousel-text">
+                        Отличная компания. Лучшая по соотношению цена/качество. Сделали всё в лучшем виде, мы им очень
+                        багодарны.</div>
+                </div>
+                <div class="feedback-carousel-item">
+                    <div class="feedback-carousel-user">
+                        <div class="feedback-carousel-user-img">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        <div class="feedback-carousel-user-name">
+                            Евгений Д. </div>
+                    </div>
+                    <div class="feedback-carousel-text">
+                        Отличная компания. Лучшая по соотношению цена/качество. Сделали всё в лучшем виде, мы им очень
+                        багодарны.</div>
+                </div>
+                <div class="feedback-carousel-item">
+                    <div class="feedback-carousel-user">
+                        <div class="feedback-carousel-user-img">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        <div class="feedback-carousel-user-name">
+                            Евгений Д. </div>
+                    </div>
+                    <div class="feedback-carousel-text">
+                        Отличная компания. Лучшая по соотношению цена/качество. Сделали всё в лучшем виде, мы им очень
+                        багодарны.</div>
+                </div>
+            </div>
+            <div class="btn-page-block">
+                <a href="#" class="page-btn">Смотреть все отзывы</a>
+            </div>
+        </div>
+    </div>
+    <section class="gray-block">
+        <div class="container">
+            <h2 class="page-title-item">Блог</h2>
+            <div class="press-block-flex">
+                <div class="press-block-item">
+                    <div class="press-block-img">
+                        <a href="#"><img src="images/blog1.JPG" alt=""></a>
+                    </div>
+                    <div class="press-block-date">
+                        04 апреля 2022
+                    </div>
+                    <div class="press-block-title">
+                        <a href="#">Название статьи №1</a>
+                    </div>
+                </div>
+                <div class="press-block-item">
+                    <div class="press-block-img">
+                        <a href="#"><img src="images/blog2.JPG" alt=""></a>
+                    </div>
+                    <div class="press-block-date">
+                        31 марта 2021
+                    </div>
+                    <div class="press-block-title">
+                        <a href="#">Название статьи №2</a>
+                    </div>
+                </div>
+                <div class="press-block-item">
+                    <div class="press-block-img">
+                        <a href="#"><img src="images/blog3.JPG" alt=""></a>
+                    </div>
+                    <div class="press-block-date">
+                        22 марта 2022
+                    </div>
+                    <div class="press-block-title">
+                        <a href="#">Название статьи №3</a>
+                    </div>
+                </div>
+                <div class="press-block-item">
+                    <div class="press-block-img">
+                        <a href="#"><img src="images/blog4.JPG" alt=""></a>
+                    </div>
+                    <div class="press-block-date">
+                        3 марта 2022
+                    </div>
+                    <div class="press-block-title">
+                        <a href="#">Название статьи №4</a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-page-block">
+                <a href="#" class="page-btn">Читать все статьи</a>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="page-title-item">Контакты</h2>
+        <div class="contacts-flex-main">
+            <div class="main-contact-phone">
+                <a href="tel:+79513123181"><i class="fa fa-phone-square" aria-hidden="true"></i>
+                    8-951-312-31-81</a>
+            </div>
+            <div class="main-messeger-block">
+                <a href="whatsapp://send/?phone=+79513123181" rel="nofollow" target="_blank"><img
+                        src="images/WhatsApp.png"></a>
+                <a href="viber://add?number=79513123181" rel="nofollow" target="_blank"><img src="images/Viber.png"></a>
+            </div>
+        </div>
+        <div class="btn-page-block btn-page-block-white">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="page-btn">Оставить
+                заявку</button>
+        </div>
+        <p class="contact-text">Для уточнения цены можно предоставить видео или фото с комментариями, после чего будет
+            озвучена
+            ориентировочная сумма работы на данном участке.</p>
+    </section>
+    <footer class="footer-page">
+        <div class="container">
+            <div class="footer-flex-block">
+                <div class="footer-logo">
+                    <div class="header-logo header-logo-white">
+                        <a href="/">
+                            <span class="logo-img-block">
+                                <i class="fa fa-tree" aria-hidden="true"></i>
+                            </span>
+                            <span class="logo-text-block">
+                                Благоустройство<br>
+                                территорий
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Уборка участков "под ключ"</a>
+                    <a href="#">Вспашка и культивация</a>
+                    <a href="#">Покос травы, спил деревьев</a>
+                    <a href="#">Посев газона, стрижка</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">О нас</a>
+                    <a href="#">Портфолио</a>
+                    <a href="#">Отзывы</a>
+                    <a href="#">Блог</a>
+                </div>
+                <div class="footer-links">
+                    <a href="tel:+79513123181"><i class="fa fa-phone-square" aria-hidden="true"></i>
+                        8-951-312-31-81</a>
+                    <div class="main-messeger-block">
+                        <a href="whatsapp://send/?phone=+79513123181" rel="nofollow" target="_blank"><img
+                                src="images/WhatsApp.png"></a>
+                        <a href="viber://add?number=79513123181" rel="nofollow" target="_blank"><img
+                                src="images/Viber.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                Разработано <a href="https://tetris-studio.ru" target="_blank">Tetris Studio</a>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="js/main.js"></script>
 </body>
 

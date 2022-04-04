@@ -183,6 +183,7 @@ a:hover {
 .gray-block {
     background-color: #ededed;
     padding: 40px 0;
+    margin-bottom: 60px;
 }
 
 .advantages-item-title {
@@ -209,6 +210,7 @@ a:hover {
 
 .page-title-item {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .page-btn {
@@ -248,6 +250,227 @@ button.btn-close {
     text-align: center;
 }
 
+.main-page-job {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.job-item-block {
+    width: 32%;
+    position: relative;
+    transition: all .3s linear;
+}
+
+.job-item-block:hover {
+    box-shadow: 0px 2px 15px #333;
+}
+
+.job-item-block img {
+    width: 100%;
+}
+
+.job-title-item {
+    padding: 6px 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.feedback-carousel-item {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.feedback-carousel-user {
+    margin-right: 30px;
+    text-align: center;
+    width: 30%;
+}
+
+.feedback-carousel-user-img {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.feedback-carousel-text {
+    width: 70%;
+}
+
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chevron-background {
+    font-size: 55px;
+    color: #3e7c4b;
+}
+
+.main-feedback-block {
+    margin-bottom: 60px;
+}
+
+.press-block-item {
+    width: 24%;
+    transition: all .3s linear;
+    border: 1px solid #3e7c4b;
+}
+
+.press-block-item:hover {
+    box-shadow: 0px 2px 15px #333;
+}
+
+.press-block-img img {
+    width: 100%;
+}
+
+.press-block-date {
+    color: #8d8d8d;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.press-block-title {
+    padding: 10px;
+}
+
+.press-block-title a {
+    color: #3e7c4b;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.press-block-title:hover a {
+    border-bottom: 1px solid #3e7c4b;
+}
+
+.press-block-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-feedback-form .input-file-modal {
+    border: none;
+    display: inline-block;
+    width: auto;
+}
+
+.main-contact-phone {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-contact-phone a {
+    color: #3e7c4b;
+    font-size: 30px;
+    border-bottom: 1px solid transparent;
+}
+
+.main-contact-phone a:hover {
+    border-bottom: 1px solid #3e7c4b;
+}
+
+.main-messeger-block img {
+    width: 50px;
+    margin: 0 8px;
+}
+
+.contacts-flex-main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn-page-block-white button {
+    background-color: #fff;
+}
+
+.contact-text {
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+.footer-page {
+    background-color: #3e7c4b;
+}
+
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 20px 0;
+    color: #fff;
+}
+
+.footer-flex-block a {
+    border-bottom: 1px solid transparent;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-flex-block a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-logo .header-logo a {
+    display: flex;
+}
+
+.footer-logo .header-logo a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.footer-links .main-messeger-block {
+    display: flex;
+}
+
+.footer-links .main-messeger-block a:hover {
+    border-bottom: 1px solid transparent
+}
+
+.footer-links .main-messeger-block img {
+    margin: 0 15px 0 0;
+    width: 30px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer-copyright a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-copyright a:hover {
+    border-bottom: 1px solid #fff;
+}
+
 @media(max-width: 991px) {
     .navbar-expand-md {
         flex-wrap: wrap;
@@ -259,6 +482,19 @@ button.btn-close {
 
     .advantages-item {
         width: 32%;
+    }
+
+    .press-block-flex {
+        flex-wrap: wrap;
+    }
+
+    .press-block-item {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .footer-flex-block {
+        flex-wrap: wrap;
     }
 }
 
@@ -289,10 +525,57 @@ button.btn-close {
     .advantages-item {
         width: 48%;
     }
+
+    .main-page-job {
+        flex-direction: column;
+    }
+
+    .job-item-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feedback-carousel-item {
+        width: 76%;
+        flex-direction: column;
+    }
+
+    .feedback-carousel-user {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .feedback-carousel-text {
+        width: 100%;
+    }
+
+    .feedback-carousel-user {
+        margin-right: 0;
+    }
+
+    .contacts-flex-main {
+        flex-direction: column;
+    }
+
+    .main-messeger-block {
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-right: 20px;
+    }
+
+    .footer-logo .header-logo {
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 400px) {
     .advantages-item {
+        width: 100%;
+    }
+
+    .press-block-item {
         width: 100%;
     }
 }
