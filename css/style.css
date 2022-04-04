@@ -211,6 +211,43 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.page-btn {
+    color: #3e7c4b;
+    border: 2px solid #3e7c4b;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: all .3s linear;
+}
+
+.page-btn:hover {
+    color: #fff;
+    background-color: #3e7c4b;
+}
+
+button.btn-close {
+    font-size: 16px;
+    z-index: 1;
+    right: 15px;
+    top: 7px;
+    position: absolute;
+}
+
+.owl-feedback-form input,
+.owl-feedback-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+
+.btn-page-block {
+    text-align: center;
+}
+
 @media(max-width: 991px) {
     .navbar-expand-md {
         flex-wrap: wrap;

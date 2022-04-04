@@ -71,6 +71,28 @@
                 </div>
 
             </header>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-body">
+                            <div class="owl-feedback-form js-send-form">
+                                <h3>Заполните и отправьте заявку!</h3>
+                                <input type="text" name="name" placeholder="Ваше имя">
+                                <input type="text" name="phone" placeholder="Телефон">
+                                <input type="text" name="email" placeholder="email">
+                                <textarea rows="5" name="comment" placeholder="Ваше сообщение"></textarea>
+                                <div class="btn-page-block">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                        class="page-btn">Отправить
+                                        заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="title-page main-page-title">
                 <h1>Благоустройство территорий | Курск</h1>
             </div>
@@ -210,7 +232,12 @@
                     </div>
                 </div>
             </div>
+            <div class="btn-page-block">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="page-btn">Оставить
+                    заявку</button>
+            </div>
         </div>
+
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
