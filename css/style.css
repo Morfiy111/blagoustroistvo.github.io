@@ -60,7 +60,7 @@ a:hover {
 }
 
 .header-logo {
-    background-color: #cfc97f;
+    background-color: #fff;
     padding: 6px 14px;
 }
 
@@ -469,6 +469,14 @@ button.btn-close {
 
 .footer-copyright a:hover {
     border-bottom: 1px solid #fff;
+}
+
+.footer-flex-block .footer-logo a {
+    color: #3e7c4b;
+}
+
+.footer-flex-block .footer-logo a:hover {
+    color: #00b927;
 }
 
 @media(max-width: 991px) {
