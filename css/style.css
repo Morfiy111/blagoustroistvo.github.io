@@ -712,6 +712,10 @@ button.btn-close {
     .galery-item {
         width: 48.5%;
     }
+
+    .header-pnone-block {
+        margin-top: 56px;
+    }
 }
 
 @media(max-width: 400px) {
